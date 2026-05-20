@@ -1,0 +1,25 @@
+# Test files
+test.txt
+downloaded.txt
+
+# Environment / secrets — never commit credentials
+.env
+*.env
+.aws/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
